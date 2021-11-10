@@ -2,7 +2,6 @@
 
 #   Auther Controller
 #   It is for manage Auther Detail etc for App
-#
 #   My Book Project
 #   Created by MyBook
 # MyBook Auther controller class
