@@ -1,10 +1,9 @@
 # frozen_string_literal: true
-
-#   Accounts Controller
-#   It is for manage Account Detail etc for App
+# Accounts Controller
+# It is for manage Account Detail etc for App
 #
-#   My Book Project
-#   Created by MyBook
+# My Book Project
+# Created by MyBook
 # MyBook Account controller class
 class AccountsController < ApplicationController
   before_action :set_account, only: %i[show edit update destroy]
