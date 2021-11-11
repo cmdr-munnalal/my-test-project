@@ -12,7 +12,7 @@ require 'rails_helper'
 # sticking to rails and rspec-rails APIs to keep things simple and stable.
 
 RSpec.describe '/authers', type: :request do
-  # Auther. As you add validation to Auther, be sure to 
+  # Auther. As you add validation to Auther, be sure to
   # adjust the attributes here as well
   let(:valid_attributes) do
     skip('Add a hash of attribute valid for your model')
@@ -113,7 +113,6 @@ RSpec.describe '/authers', type: :request do
         delete auther_url(auther)
       end.to change(Auther, :count).by(-1)
     end
-
     it 'redirects to the authers list' do
       auther = Auther.create! valid_attributes
       delete auther_url(auther)
